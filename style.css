@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(213, 220, 230);
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 12;
+  line-height: 22px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:darkslategray;
+  line-height: 30px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(61, 61, 61);
+  line-height: 30px;
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+a {
+  color: rgb(0, 126, 126);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(8, 165, 165);
+}
+
+a:visited {
+  color: rgb(77, 88, 47);
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 10px 20px 20px;
+  margin: 15px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 15px lightslategray;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.button {
+  background-color: lightsteelblue;
+  padding: 5px 10px;
+  border: 2px solid rgb(0, 126, 126);
+  border-radius: 50px;
+}
